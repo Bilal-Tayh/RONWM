@@ -10,7 +10,8 @@ Implementation was done by bilal tayh (tayh[at]post.bgu.ac.il), 2019.
 compile: javac main.java
 
 run: java main trace-path cells-num
-(trace-path is the path of the trace, the trace sould be a .txt file).
+
+(trace-path is the path of the trace, the trace sould be a .txt file),
 (cells-num the size of Samples Per NMP).
 
 #  The results
