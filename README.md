@@ -11,7 +11,8 @@ compile: javac main.java
 
 run: java main trace-path cells-num
 
-trace-path: is the path of the trace, the trace should be a .txt file.
+trace-path: is the path of the trace, the trace should be a ".txt" file, this can be achived by running (tcpdump -q -n -t -r data.pcap >> trace.txt).
+
 cells-num: the size of Samples Per NMP.
 
 #  The results
